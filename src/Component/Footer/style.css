@@ -64,9 +64,6 @@
 }
 
 @media only screen and (max-width: 768px) {
-    .footer{
-
-    }
     .footer .container{
         display: block;
         width: 100%;
@@ -81,4 +78,16 @@
     }
 }
 @media only screen and (max-width: 992px) {
+    .footer .container{
+        display: block;
+        width: 100%;
+        
+    }
+    .footer .featFooter{
+        width: 95%;
+        margin: auto;
+        border-bottom: 1px solid #ffffff1e;
+        border-right: none;
+        
+    }
 }

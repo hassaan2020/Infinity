@@ -253,7 +253,7 @@
 }
 .featOfCourses .inFeatOfCourses .i{
     margin: 20px;
-    font-size: 7vh;
+    font-size: 6vh;
 }
 .featOfCourses .inFeatOfCourses:hover .i{
     animation: rotate 0.5s linear;
@@ -560,7 +560,7 @@
         align-items: center;
     }
     .toBe .innerToBe .offer h1{
-        font-size: 5vh;
+        font-size: 4vh;
     }
     .toBe .innerToBe .offer h3{
         font-size: 2vh;

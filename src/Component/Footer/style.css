@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap');
+
+.footer{
+    width: 100%;
+    padding: 50px;
+    padding-bottom: 0;
+    overflow: hidden;
+    background-color: #1b8bcb;
+    box-sizing: border-box;
+    font-family: 'Kalam', cursive;
+    display: grid;
+    justify-content: center;
+    
+}
+.footer .container{
+    display: flex;
+    justify-content: center;
+}
+.footer .featFooter{
+    padding: 5px;
+    flex-grow: 1;
+    width: 20%;
+    margin: 10px;
+    border-right: 1px solid #ffffff1e;
+    color: #fff;
+}
+.footer .featFooter h3{
+    border-bottom: 2px solid #fff;
+    border-image: linear-gradient(to right, #fff 50%, transparent 50%);
+    border-image-slice: 1;
+    width: fit-content;
+}
+.footer .featFooter:first-child{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer .featFooter:first-child h1{
+    font-size: 40px;
+    margin: 10px;
+}
+.footer .featFooter:first-child .i{
+    font-size: 60px;
+    margin: 10px;
+}
+.footer .nLnks{
+    padding-left: 10px;
+}
+.footer .nLnks .NavLink{
+    text-decoration: none;
+    color: #ffffffa2;
+    transition: 0.5s;
+}
+.footer .nLnks .NavLink:hover{
+    color: #fff;
+    transition: 0.5s;
+}
+.footer .copy {
+    margin-top: 60px;
+    text-align: center;
+    padding: 15px;
+    color: #fff;
+}
+
+@media only screen and (max-width: 768px) {
+    .footer{
+
+    }
+    .footer .container{
+        display: block;
+        width: 100%;
+        
+    }
+    .footer .featFooter{
+        width: 95%;
+        margin: auto;
+        border-bottom: 1px solid #ffffff1e;
+        border-right: none;
+        
+    }
+}
+@media only screen and (max-width: 992px) {
+}

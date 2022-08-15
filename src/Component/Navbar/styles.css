@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap');
+
+input,
+textarea,
+button,
+select,
+a {
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+a:focus,a:visited,a:active{
+  outline: none;
+}
+* {
+    -webkit-tap-highlight-color: transparent;
+}
+
+#navBar{
+    font-family: 'Kalam', cursive;
+}
+.nav{
+    position: fixed;
+    background-color: transparent ;
+    width: 100%;
+    overflow: hidden;
+    transition: 0.5s;
+}
+.navScrolled{
+    position: fixed;
+    background-color: #fff ;
+    width: 100%;
+    box-shadow: 0 0 10px #dad6d6;
+    transition: 0.5s;
+    overflow: hidden;
+    z-index: 999;
+}
+#navBar .container{
+    width: 1170px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+#navBar .nLnks{
+    display: flex;
+    align-items: center;
+}
+#navBar span{
+    font-size: 20px;
+    width: 40%;
+    transition: 0.5s;
+}
+#navBar span .i{
+    margin: 0 10px;
+    color: #1b8bcb;
+    transition: 0.5s;
+
+}
+.nav span{
+    color: #fff !important;
+}
+.nav span .i{
+    color: #fff !important;
+}
+#navBar .links{
+    width: 100%;
+    /* background-color: #D82148; */
+    box-sizing: border-box;
+    color: #bebcbc;
+    font-size: 16px;
+    transition: 0.5s;
+}
+.nav .links{
+    color: #fff !important;
+}
+#navBar .NavLink{
+    text-decoration: none;
+    padding: 0;
+    margin: 20px 30px;
+}
+#navBar .links:hover{
+    color: #1b8bcb;
+    transition: 0.5s;
+}
+.nav .links:hover{
+    color: #fff !important;
+}
+#navBar .bars{
+    color: #bebcbc;
+    flex-grow: 1;
+    display: none;
+}
+.nav .bars{
+    color: #fff !important;
+}
+/* .nav .links .i{
+    margin: 0;
+    font-size: 25px;
+    transition: 0.5s;
+}
+.nav .links:hover .i{
+    color: #1b8bcb;
+    transition: 0.5s;
+} */
+/* .active{
+    border-bottom: 3px solid #1b8bcb;
+} */
+/* .active span{
+    color: #fff;
+} */
+/* .active .i {
+    color: #1b8bcb;
+
+} */
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+    .container{
+        width: 100%;
+    }
+    #navBar{
+        width: 100%;
+        overflow: hidden;
+        padding: 10px;
+        box-sizing: border-box;
+        
+    }
+    #navBar span{
+        width: 10%;
+    }
+    #navBar .container{
+        display: block;
+    }
+    #navBar .nLnks{
+        display: block;
+        padding-left: 15px;
+        background-color: #1b8acbee;
+        overflow: hidden;
+    }
+    #showNav{
+        height: auto !important;
+    }
+    #hideNav{
+        height: 0 !important;
+    }
+    .navScrolled .nLnks{
+        background-color: #fff !important;
+    }
+    #navBar .bars{
+        display: block;
+        position: absolute;
+        right: 15px;
+        top: 15px;
+    }
+}
+@media only screen and (max-width: 992px) {
+    .container{
+        width: 100%;
+    }
+    #navBar{
+        width: 100%;
+        overflow: hidden;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+    #navBar span{
+        width: 10%;
+    }
+    #navBar .container{
+        display: block;
+    }
+    #navBar .nLnks{
+        display: block;
+        padding-left: 15px;
+        background-color: #1b8acbee;
+        overflow: hidden;
+    }
+    #showNav{
+        height: auto !important;
+    }
+    #hideNav{
+        height: 0 !important;
+    }
+    .navScrolled .nLnks{
+        background-color: #fff !important;
+    }
+    #navBar .bars{
+        display: block;
+        position: absolute;
+        right: 15px;
+        top: 15px;
+    }
+}

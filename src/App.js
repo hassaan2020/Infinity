@@ -15,7 +15,7 @@ class App extends Component {
         
         <Navbar/>
         <Routes>
-          <Route path='/Home' element = {<Home/>}/>
+          <Route exact path='/Home' element = {<Home/>}/>
           <Route path='/About' element = {<About/>} />
         </Routes>
         

@@ -31,7 +31,7 @@ const Navbar = () => {
   return (
     <div className={state} id="navBar">
       <div className='container'>
-      <NavLink to='/Home' className='span' >
+      <NavLink to='/Home' className='span active' >
         <span>
           <FontAwesomeIcon className='i' icon={faInfinity}></FontAwesomeIcon>
           Infinity

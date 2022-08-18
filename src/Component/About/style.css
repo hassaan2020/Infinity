@@ -1,0 +1,43 @@
+.container{
+    width: 1170px ; 
+    margin: auto;
+ }
+ .fragment{
+     font-family: 'Kalam', cursive;
+ }
+ .aboutHeader{
+     width: 100%;
+     height: 100vh;
+     background-image: url(../images/h8.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     overflow: hidden;
+ }
+
+ .aboutHeader .aboutInnerHeader{
+     width: 100%;
+     height: 100vh;
+     /* 18191a */
+     background-image: linear-gradient(60deg ,#18191af5 , #1b8bcbf5 );
+     overflow: hidden;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+ }
+ .aboutHeader .aboutInnerHeader .container{
+    display: flex;
+    justify-content: center;
+ }
+.welcomeAbout{
+    flex-grow: 1;
+    margin: 20px;
+    width: 65%;
+    background-color: aqua;
+ }
+ .aboutHeader .aboutInnerHeader .imag{
+    flex-grow: 1;
+    margin: 20px;
+    width: 30%;
+ }
+ 

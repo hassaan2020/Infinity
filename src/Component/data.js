@@ -5,6 +5,9 @@ import {faReact,faPython,faJava,faAngular} from '@fortawesome/free-brands-svg-ic
 import p1 from './images/h1.jpg'
 import p2 from './images/h2.jpg'
 import p3 from './images/h4.jpg'
+import p4 from './images/flutter.jpg'
+import p5 from './images/front.png'
+import p6 from './images/data.jpg'
 
 const data ={
     featDate:
@@ -89,6 +92,32 @@ const data ={
             name: "Aleksandr Davydov",
             job: "Android developer",
         },
+    ],
+    courseFeatSectionData:
+    [
+        {
+            img: p4,
+            name: "Introduction to flutter with examples ",
+            title: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            price:"39$",
+            oldPrice:"45$"
+        },
+        {
+            img: p5,
+            name: "Advanced front-end developer with react",
+            title: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            price:"42$",
+            oldPrice:"49$"
+        },
+        {
+            img: p6,
+            name: "Programming for data science with python",
+            title: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            price:"56$",
+            oldPrice:"65$"
+        },
+        
+        
     ],
 }
 export default data

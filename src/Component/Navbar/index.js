@@ -4,7 +4,6 @@ import {faBars,faInfinity} from '@fortawesome/free-solid-svg-icons'
 import { Link,NavLink } from 'react-router-dom'
 import './styles.css'
 
-
 const Navbar = () => {
   const [state,setState] = useState("nav");
   const [heightSt,setHeightST] = useState(false);
@@ -15,10 +14,10 @@ const Navbar = () => {
   // }
 
   const scrollEvent = (e) =>{
-    if(window.scrollY < 300){
+    if(window.scrollY < 73){
       return setState("nav");
     }
-    else if(window.scrollY > 200)
+    else if(window.scrollY > 70)
       return setState("navScrolled");
     }
 
@@ -32,30 +31,32 @@ const Navbar = () => {
   return (
     <div className={state} id="navBar">
       <div className='container'>
+      <NavLink to='/Home' className='span' >
         <span>
           <FontAwesomeIcon className='i' icon={faInfinity}></FontAwesomeIcon>
           Infinity
         </span>
+      </NavLink>
 
         <div className='nLnks' id={heightSt ? "showNav" : "hideNav"}>
-          <NavLink to='/' className='NavLink'>
-            <div className='links'>
+          <NavLink to='/About' className='NavLink' onClick={() => setHeightST(!heightSt)} >
+            <div className='links '>
                 About
             </div>
           </NavLink>
 
-          <NavLink to='/' className='NavLink'>
+          <NavLink to='/' className='NavLink' onClick={() => setHeightST(!heightSt)}>
             <div className='links'>
                 Services               
             </div>
           </NavLink>
 
-          <NavLink to='/' className='NavLink'>
+          <NavLink to='/' className='NavLink' onClick={() => setHeightST(!heightSt)}>
             <div className='links'>
                 Courses
             </div>
           </NavLink>
-          <NavLink to='/' className='NavLink'>
+          <NavLink to='/' className='NavLink' onClick={() => setHeightST(!heightSt)}>
             <div className='links'>
                 Contact Us
             </div>

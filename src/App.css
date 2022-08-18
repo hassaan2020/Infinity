@@ -1,0 +1,18 @@
+.nav .active{
+    border-bottom: 2px solid;
+    border-image: linear-gradient(to right, #fff 60%, transparent 40%);
+    border-image-slice: 1;
+}
+.navScrolled .active{
+    color: #1b8bcb !important;
+    border-bottom: 2px solid;
+    border-image: linear-gradient(to right, #1b8bcb 60%, transparent 40%);
+    border-image-slice: 1;
+}
+
+.span.active{
+    border: none;
+}
+.navScrolled .span.active{
+    color: #000 !important;
+}

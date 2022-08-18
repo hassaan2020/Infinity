@@ -1,0 +1,464 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap');
+
+button , input{
+   font-family: 'Kalam', cursive;
+}
+.container{
+    width: 1170px ; 
+    margin: auto;
+    overflow: hidden;
+ }
+ .fragment{
+     font-family: 'Kalam', cursive;
+ }
+ .aboutHeader{
+     width: 100%;
+     height: 100vh;
+     background-image: url(../images/h8.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     overflow: hidden;
+ }
+
+ .aboutHeader .aboutInnerHeader{
+     width: 100%;
+     height: 100vh;
+     /* 18191a */
+     background-image: linear-gradient(60deg ,#18191af5 , #1b8bcbf5 );
+     overflow: hidden;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+ }
+ .aboutHeader .aboutInnerHeader .container{
+    display: flex;
+    justify-content: center;
+ }
+ .aboutHeader .aboutInnerHeader .welcomeAbout{
+    flex-grow: 1;
+    margin: 20px;
+    width: 30%;
+ }
+ .welcomeAbout h1{
+   font-size: 6vh;
+    width: fit-content;
+    border-bottom: 2px solid;
+    border-image: linear-gradient(to right, #fff 60%, transparent 40%);
+    border-image-slice: 1;
+    color: #fff;
+ }
+ .welcomeAbout p{
+    width: 95%;
+    text-align: justify;
+    text-justify: inter-word;
+    color: #ffffffd0;
+ }
+ .welcomeAbout button{
+    padding: 10px 50px;
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+    margin: 30px 20px;
+    transition: 0.5s;
+    cursor: pointer;
+ }
+.welcomeAbout button:hover{
+    background-color: #fff;
+    color: #18191a;
+    transition: 0.5s;
+}
+ .aboutHeader .aboutInnerHeader .imag{
+    flex-grow: 1;
+    width: 50%;
+    padding: 0;
+ }
+ .aboutHeader .aboutInnerHeader .imag img{
+    width: 100%;
+    height: auto;
+ }
+ .aboutUs{
+   width: 100%;
+   margin: 50px 0;
+   margin-bottom: 60px;
+   box-sizing:border-box ;
+   text-align: center;
+ }
+ .aboutUs h1{
+   font-size: 7vh;
+   margin: 5px;
+ }
+ .aboutUs p{
+   width: 55%;
+   margin: auto;
+   color: gray;
+ }
+ .aboutServices{
+   width: 100%;
+   padding: 20px 0;
+   margin: 50px 0;
+   margin-bottom: 20px;
+   box-sizing: border-box;
+   overflow: hidden;
+   background-color:#1b8bcb ;
+   transition: 0.5s ;
+ }
+ 
+ .aboutServices .container{
+   display: flex;
+   justify-content: center;
+ }
+ .aboutServices .innerAboutServices{
+   width: calc(40% - 10px);
+   height: 500px;
+   overflow: hidden;
+   flex-grow: 1;
+   margin-right: 10px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+ }
+ .aboutServices .innerAboutServices h1{
+   font-family: 'Montserrat', sans-serif !important;
+   width: 100%;
+   color: #fff;
+ }
+ .aboutServices .innerAboutServices p {
+   width: 100%;
+   text-justify: inter-word;
+   text-align: justify;
+   color: #ffffffb7;
+ }
+ .aboutServices .imag{
+   flex-grow: 1;
+   width: calc(60% - 10px);
+   height: 500px;
+   overflow: hidden;
+   margin-left: 10px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+ }
+ .aboutServices .imag img{
+   width: 100%;
+   height: 90%;
+   transform: scale(1.1);
+ }
+ 
+ .courseAboutSection {
+   width: 100%;
+   padding: 20px 0;
+   margin: 30px 0;
+   box-sizing: border-box;
+   overflow: hidden;
+ }
+ .courseAboutSection .content{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   overflow: hidden;
+ }
+ .courseAboutSection .courseFeatSection{
+   flex-grow: 1;
+   margin: 10px;
+   width: 30%;
+   padding-bottom: 20px;
+   box-sizing: border-box;
+   background-color: #f5f5f5;
+ }
+ .courseAboutSection .courseFeatSection img{
+   width: 100%;
+   height: 200px;
+ }
+ .courseAboutSection .courseFeatSection h2{
+   margin: 10px 15px;
+}
+ .courseAboutSection .courseFeatSection p{
+   width: 100%;
+   padding: 0 15px;
+   box-sizing: border-box;
+   color: #949393;
+}
+.courseAboutSection .courseFeatSection span{
+   width: calc(60% - 15px);
+   display: inline-block;
+   margin-left: 15px;
+   color: #1b8bcb;
+}
+.courseAboutSection .courseFeatSection span s{
+   padding: 0 15px;
+   color: #949393;
+}
+.courseAboutSection .courseFeatSection button{
+   width: calc(40% - 15px);
+   margin-right: 15px;
+   margin-top: 5px;
+   padding: 10px 0;
+   background-color: transparent;
+   border: 1px solid #1b8bcb;
+   color: #1b8bcb;
+   transition: 0.5s;
+   cursor: pointer;
+}
+.courseAboutSection .courseFeatSection button:hover{
+   background-color: #1b8bcb;
+   color: #fff;
+   transition: 0.5s;
+}
+.imagineFuture{
+  width: 100%;
+  padding: 50px 40px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 0;
+  background-image: linear-gradient(60deg ,#18191af5 , #1b8bcbf5 );
+  background-size: 130%;
+  background-position: left;
+  transition: 0.5s background-position;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 0;
+}
+.imagineFuture:hover{
+  background-position: right;
+}
+.imagineFuture h1{
+  width: fit-content;
+  font-family: 'Montserrat', sans-serif !important;
+  font-size: 7vh;
+  margin: 20px;
+  background: -webkit-linear-gradient(60deg,#1b8bcbf5 , #fffffff5 );
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.imagineFuture p{
+  font-size: 2.5vh;
+  width: 50%;
+  color: #ffffffb7;
+}
+.imagineFuture button{
+  padding: 10px 50px;
+  background-color: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+  margin: 30px;
+  transition: 0.5s;
+  cursor: pointer; 
+}
+.imagineFuture button:hover{
+  color: #18191af5; 
+  background: #fff;
+  transition: 0.5s;
+  box-shadow: 0 0 5px #f5f5f5;
+}
+.subscribe{
+  width: 100%;
+  padding: 100px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #eceaea;
+  
+}
+.subscribe h1{
+  font-size: 7vh;
+  margin: 20px;
+  font-family: 'Montserrat', sans-serif !important;
+}
+.subscribe p{
+  color: gray;
+}
+.subscribe form{
+  width: 35%;
+  overflow: hidden;
+  position: relative;
+  margin: 30px;
+  border-radius: 40px;
+  border: 1px solid #1b8acb5e;
+}
+.subscribe .emailInp{
+  outline: none;
+  padding: 10px 12px;
+  box-sizing: border-box;
+  width: 100%;
+  margin: 0;
+  border: none;
+}
+.subscribe .submitInp{
+  padding: 10px 30px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  border: none;
+  background-color: #1b8bcb;
+  color: #fff;
+  cursor: pointer;
+}
+
+ @media only screen and (max-width: 768px) {
+   .container{
+      width: 100%;
+   }
+   .aboutHeader .aboutInnerHeader .container{
+      display: block;
+   }
+   .aboutHeader .aboutInnerHeader .welcomeAbout{
+      flex-grow: 1;
+      margin: auto;
+      width: 90%;
+      text-align: center;
+   }
+   .aboutHeader .aboutInnerHeader .welcomeAbout h1{
+      text-align: center;
+      width: 90%;
+      border-image: linear-gradient(to right,transparent ,transparent , #fff , transparent ,transparent );
+      border-image-slice: 1;
+  
+   }
+   .aboutHeader .aboutInnerHeader .imag{
+      display: none;
+   }
+   .aboutUs p{
+      width: 85%;
+      text-justify: inter-word;
+      text-align: justify;
+    }
+    .aboutServices .container{
+      display: block;
+    }
+    .aboutServices .innerAboutServices {
+      width: 90%;
+      margin: auto;
+      height: auto;
+    } 
+    .aboutServices .imag{
+      width: 90%;
+      margin: auto;
+      height: auto;
+    } 
+    .courseAboutSection .content{
+      display: block;
+      width: 100%;
+    }
+    .courseAboutSection .courseFeatSection{
+      width: 85%;
+      margin:15px auto;
+    }
+    .imagineFuture h1{
+      width: 100%;
+      font-size: 4vh;
+      line-height: 1.5;
+      margin: 20px 0;
+    }
+    .imagineFuture p{
+      width: 95%;
+      font-size: 2vh;
+      color: #ffffffb7;
+    }
+    .subscribe{
+      padding: 100px 5px;
+    }
+    .subscribe h1{
+      font-size: 4vh;
+      width: 100%;
+    }
+    .subscribe p{
+      width: 85%;
+    }
+    .subscribe form{
+      width: 90%;
+      margin: 30px auto;
+    }
+    .subscribe form .submitInp{
+      padding: 10px 15px;
+    }
+
+ }
+
+ @media only screen and (max-width: 992px) {
+  .container{
+    width: 100%;
+ }
+ .aboutHeader .aboutInnerHeader .container{
+    display: block;
+ }
+ .aboutHeader .aboutInnerHeader .welcomeAbout{
+    flex-grow: 1;
+    margin: auto;
+    width: 90%;
+    text-align: center;
+ }
+ .aboutHeader .aboutInnerHeader .welcomeAbout h1{
+    text-align: center;
+    width: 90%;
+    border-image: linear-gradient(to right,transparent ,transparent , #fff , transparent ,transparent );
+    border-image-slice: 1;
+
+ }
+ .aboutHeader .aboutInnerHeader .imag{
+    display: none;
+ }
+ .aboutUs p{
+    width: 85%;
+    text-justify: inter-word;
+    text-align: justify;
+  }
+  .aboutServices .container{
+    display: block;
+  }
+  .aboutServices .innerAboutServices {
+    width: 90%;
+    margin: auto;
+    height: auto;
+  } 
+  .aboutServices .imag{
+    width: 90%;
+    margin: auto;
+    height: auto;
+  } 
+  .courseAboutSection .content{
+    display: block;
+    width: 100%;
+  }
+  .courseAboutSection .courseFeatSection{
+    width: 85%;
+    margin:15px auto;
+  }
+  .imagineFuture h1{
+    width: 100%;
+    font-size: 4vh;
+    line-height: 1.5;
+    margin: 20px 0;
+  }
+  .imagineFuture p{
+    width: 95%;
+    font-size: 2vh;
+    color: #ffffffb7;
+  }
+  .subscribe{
+    padding: 100px 5px;
+  }
+  .subscribe h1{
+    font-size: 4vh;
+    width: 100%;
+  }
+  .subscribe p{
+    width: 85%;
+  }
+  .subscribe form{
+    width: 90%;
+    margin: 30px auto;
+  }
+  .subscribe form .submitInp{
+    padding: 10px 15px;
+  }
+}

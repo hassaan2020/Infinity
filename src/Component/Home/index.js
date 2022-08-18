@@ -4,15 +4,17 @@ import pic2 from '../images/h1.jpg'
 import data from '../data'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faArrowDown, faCode} from '@fortawesome/free-solid-svg-icons'
-import './style.css'
+import styles from './style.module.css'
+import cx from 'classnames';
+import classNames from 'classnames'
 
 function Home() {
 
   const showFeatData = data.featDate.map((el,idx) => {
     return(
-      <div className='feat'>
+      <div className={styles.feat}>
         
-        <FontAwesomeIcon className='i' icon={el.icn}></FontAwesomeIcon>
+        <FontAwesomeIcon className={styles.i} icon={el.icn}></FontAwesomeIcon>
         <h3>{el.title}</h3>
         <p>{el.disc}</p>
         <button>Enroll now</button>
@@ -22,8 +24,8 @@ function Home() {
 
   const showFeatCourses = data.featCourse.map((el,idx) => {
     return(
-      <div className='inFeatOfCourses'>
-        <FontAwesomeIcon icon={el.icn} className='i'></FontAwesomeIcon>
+      <div className={styles.inFeatOfCourses}>
+        <FontAwesomeIcon icon={el.icn} className={styles.i}></FontAwesomeIcon>
         <h3>{el.title}</h3>
       </div>
     )
@@ -31,8 +33,8 @@ function Home() {
 
   const showFeatCounting = data.featCounting.map((el,idx) => {
     return(
-      <div className='featCounting'>
-        <FontAwesomeIcon className='i' icon={el.icn}></FontAwesomeIcon>
+      <div className={styles.featCounting}>
+        <FontAwesomeIcon className={styles.i} icon={el.icn}></FontAwesomeIcon>
         <h1>{el.nums}</h1>
         <h4>{el.title}</h4>
       </div>
@@ -41,8 +43,8 @@ function Home() {
 
   const showFeatCustomer = data.featCustomer.map((el,idx) => {
     return(
-      <div className='featCustomer'>
-        <div className='imag'>
+      <div className={styles.featCustomer}>
+        <div className={styles.imag}>
           <img src={el.img} />
         </div>
         <h3>{el.name}</h3>
@@ -52,20 +54,20 @@ function Home() {
   })
 
   return (
-    <div className='fragment'>
-      <div className='header'>
-        <div className='innerHeader'>
-            <div className='welcome'>
+    <div className={styles.fragment}>
+      <div className={styles.header}>
+        <div className={styles.innerHeader}>
+            <div className={styles.welcome}>
               <h1>Welcom to Infinity</h1>
               <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                 Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
                  when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                 <FontAwesomeIcon className='i' icon={faArrowDown}></FontAwesomeIcon>
+                 <FontAwesomeIcon className={styles.i} icon={faArrowDown}></FontAwesomeIcon>
             </div>
         </div>
       </div>
       <br/>
-      <div className='aboutUs'>
+      <div className={styles.homeAboutUs}>
           <h1>About Us</h1>
           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
             Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
@@ -73,46 +75,46 @@ function Home() {
           </p>
       </div>
   
-      <div className='container'>
-        <div className='aboutCourse'>
+      <div className={styles.container}>
+        <div className={styles.aboutCourse}>
           {showFeatData}
         </div>
       </div>
 
-      <div className='toBe'>
-        <div className='innerToBe'>
-          <div className='container'>
-            <div className='offer'>
+      <div className={styles.toBe}>
+        <div className={styles.innerToBe}>
+          <div className={styles.container}>
+            <div className={styles.offer}>
               <h3>Special offer</h3>
               <h1>Up to 50% off</h1>
               <h3>For student community</h3>
               <button>get the offer</button>
             </div>
-            <div className='dImage'>
+            <div className={styles.dImage}>
               <img src={pic}/>
             </div>
           </div>
         </div>
       </div>
 
-      <div className='featOfCourses'>
+      <div className={styles.featOfCourses}>
           <h1>Top rated courses</h1>
-        <div className='container'>
+        <div className={styles.container}>
           {showFeatCourses}
         </div>
       </div>
 
-      <div className='counting toBe'>
-        <div className='innerCounting innerToBe'>
-          <div className='container'> 
+      <div className={cx(styles.counting, styles.toBe)}> 
+        <div className={cx(styles.innerCounting,  styles.toBeinnerToBe)}>
+          <div className={styles.container}> 
             {showFeatCounting}
           </div>
         </div>
       </div>
 
-      <div className='customers'>
+      <div className={styles.customers}>
         <h1>Our customers</h1>
-        <div className='container'>
+        <div className={styles.container}>
           {showFeatCustomer}
         </div>
       </div>

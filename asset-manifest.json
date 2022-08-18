@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Infinity-website/static/css/main.9d6b500e.css",
-    "main.js": "/Infinity-website/static/js/main.4d031843.js",
+    "main.js": "/Infinity-website/static/js/main.5a573d61.js",
     "static/js/787.53b9161e.chunk.js": "/Infinity-website/static/js/787.53b9161e.chunk.js",
     "static/media/front.png": "/Infinity-website/static/media/front.e148f71b065fe667ab29.png",
     "static/media/data.jpg": "/Infinity-website/static/media/data.420d53a81cf35b0f238b.jpg",
@@ -16,11 +16,11 @@
     "static/media/flutter.jpg": "/Infinity-website/static/media/flutter.023c424b93bdfd5b9967.jpg",
     "index.html": "/Infinity-website/index.html",
     "main.9d6b500e.css.map": "/Infinity-website/static/css/main.9d6b500e.css.map",
-    "main.4d031843.js.map": "/Infinity-website/static/js/main.4d031843.js.map",
+    "main.5a573d61.js.map": "/Infinity-website/static/js/main.5a573d61.js.map",
     "787.53b9161e.chunk.js.map": "/Infinity-website/static/js/787.53b9161e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9d6b500e.css",
-    "static/js/main.4d031843.js"
+    "static/js/main.5a573d61.js"
   ]
 }

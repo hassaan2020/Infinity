@@ -101,7 +101,7 @@ button , input{
    margin-bottom: 20px;
    box-sizing: border-box;
    overflow: hidden;
-   background-color:#1b8bcb ;
+   background-image:linear-gradient(60deg,#18191af5 0% 10%,#1b8bcb 10% 90%,#18191af5 90% 100%) ;
    transition: 0.5s ;
  }
  

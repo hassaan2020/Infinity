@@ -1,0 +1,163 @@
+{
+    "navbar": [
+        {
+            "id": "1",
+            "icon_name" : "fa-solid fa-house",
+            "nam_link" : "Home"
+        },
+        {
+            "id": "2",
+            "icon_name" : "fa-solid fa-user",
+            "nam_link" : "About"
+        },
+        {
+            "id": "3",
+            "icon_name" : "fa-solid fa-code",
+            "nam_link" : "Skills"
+        },
+        {
+            "id": "4",
+            "icon_name" : "fa-solid fa-trophy-star",
+            "nam_link" : "Experince"
+        },
+        {
+            "id": "5",
+            "icon_name" : "fa-solid fa-facebook",
+            "nam_link" : "Contact"
+        },
+        {
+            "id": "6",
+            "icon_name" : "fa-solid fa-linkedin"
+        },
+        {
+            "id": "7",
+            "icon_name" : "fa-solid fa-instgram"
+        },
+        {
+            "id": "8",
+            "icon_name" : "fa-solid fa-gitub"
+        },
+        {
+            "id": "9",
+            "icon_name" : "fa-solid fa-envelope"
+        }
+    ],
+    "images" :[
+        {
+             "id" : "1",
+             "image" : "/imgs/h1.jpg"
+        },
+        {
+            "id" : "2",
+            "image" : "/imgs/h2.jpg"
+        },
+        {
+            "id" : "3",
+            "image" : "/imgs/h3.jpg"
+        },  
+        {
+            "id" : "4",
+            "image" : "/imgs/h4.jpg"
+        },
+        {
+            "id" : "5",
+            "image" : "/imgs/h5.jpg"
+
+        },
+        {
+            "id" : "6",
+            "image" : "/imgs/h6.jpg"
+
+        },
+        {
+            "id" : "7",
+            "image" : "/imgs/h7.jpg"
+
+        },
+        {
+            "id" : "8",
+            "image" : "/imgs/h8.jpg"
+
+        },
+        {
+            "id" : "9",
+            "image" : "/imgs/h9.jpg"
+       },
+       {
+           "id" : "10",
+           "image" : "/imgs/h10.jpg"
+       },
+       {
+           "id" : "11",
+           "image" : "/imgs/h11.jpg"
+       },  
+       {
+           "id" : "12",
+           "image" : "/imgs/h12.jpg"
+       },
+       {
+           "id" : "13",
+           "image" : "/imgs/h13.jpg"
+
+       },
+       {
+           "id" : "14",
+           "image" : "/imgs/h14.jpg"
+
+       },
+       {
+           "id" : "15",
+           "image" : "/imgs/h15.jpg"
+
+       },
+       {
+           "id" : "16",
+           "image" : "/imgs/h16.jpg"
+       },
+       {
+        "id" : "17",
+        "image" : "/imgs/p1.jpg"
+        },
+        {
+            "id" : "18",
+            "image" : "/imgs/p2.png"
+        },
+        {
+            "id" : "19",
+            "image" : "/imgs/p3.png"
+        },  
+        {
+            "id" : "20",
+            "image" : "/imgs/c1.png"
+        },
+        {
+            "id" : "21",
+            "image" : "/imgs/c2.png"
+
+        },
+        {
+            "id" : "22",
+            "image" : "/imgs/c3.png"
+
+        },
+        {
+            "id" : "23",
+            "image" : "/imgs/c4.png"
+
+        },
+        {
+            "id" : "24",
+            "image" : "/imgs/c5.png"
+
+        },
+        {
+            "id" : "25",
+            "image" : "/imgs/c6.png"
+        },
+        {
+            "id" : "26",
+            "image" : "/imgs/c7.png"
+        }
+        
+    ]
+}

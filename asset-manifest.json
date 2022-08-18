@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Infinity-website/static/css/main.9d6b500e.css",
+    "main.js": "/Infinity-website/static/js/main.0c529d21.js",
+    "static/js/787.53b9161e.chunk.js": "/Infinity-website/static/js/787.53b9161e.chunk.js",
+    "static/media/front.png": "/Infinity-website/static/media/front.e148f71b065fe667ab29.png",
+    "static/media/data.jpg": "/Infinity-website/static/media/data.420d53a81cf35b0f238b.jpg",
+    "static/media/h7.png": "/Infinity-website/static/media/h7.a2be5a40b543f49847f2.png",
+    "static/media/h4.jpg": "/Infinity-website/static/media/h4.39f2baa3cac8a0bad75f.jpg",
+    "static/media/h8.jpg": "/Infinity-website/static/media/h8.4f5926b83f365293fc81.jpg",
+    "static/media/h6.png": "/Infinity-website/static/media/h6.d549e54a033db911133e.png",
+    "static/media/p.png": "/Infinity-website/static/media/p.bced688fe2e8f15a5e9d.png",
+    "static/media/h9.jpg": "/Infinity-website/static/media/h9.941c1e72ca3b849b20c4.jpg",
+    "static/media/h2.jpg": "/Infinity-website/static/media/h2.0f11ab117aea5c438632.jpg",
+    "static/media/h1.jpg": "/Infinity-website/static/media/h1.baba1202e0d3cf1c1225.jpg",
+    "static/media/flutter.jpg": "/Infinity-website/static/media/flutter.023c424b93bdfd5b9967.jpg",
+    "index.html": "/Infinity-website/index.html",
+    "main.9d6b500e.css.map": "/Infinity-website/static/css/main.9d6b500e.css.map",
+    "main.0c529d21.js.map": "/Infinity-website/static/js/main.0c529d21.js.map",
+    "787.53b9161e.chunk.js.map": "/Infinity-website/static/js/787.53b9161e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9d6b500e.css",
+    "static/js/main.0c529d21.js"
+  ]
+}

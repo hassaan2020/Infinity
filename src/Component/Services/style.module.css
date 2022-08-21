@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap');
+
+.container{
+    width: 1170px ; 
+    margin: auto;
+ }
+ .fragment{
+     font-family: 'Kalam', cursive;
+ }
+ .servicesHeader{
+     width: 100%;
+     height: 100vh;
+     background-image: url(../images/h8.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     overflow: hidden;
+ }
+ .servicesHeader .innerServicesHeader{
+     width: 100%;
+     height: 100vh;
+     background-image:linear-gradient(120deg,#1b8bcbe7 50% ,#000000c7 50% );
+     overflow: hidden;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .innerServicesHeader .servicesToBe{
+    width: 100%;
+    overflow: hidden;
+    font-size: 7vh;
+    font-family: 'Montserrat', sans-serif !important;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 10px ;
+ }
+ .innerServicesHeader .servicesToBe h1{
+    margin: 0;
+ }
+ .innerServicesHeader .servicesToBe h6{
+    margin: 0;
+ }
+ .innerServicesHeader .servicesToBe button{
+    padding: 10px 50px;
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+    margin: 30px 20px;
+    transition: 0.5s;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif !important;
+    transition: 0.5s;
+ }
+ .innerServicesHeader .servicesToBe button:hover{
+    background-color: #fff;
+    color: #1b8bcb;
+    transition: 0.5s;
+ }
+
+ .ourServices{
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+ }
+ .ourServices h1{
+    font-size: 7vh;
+ }
+ .ourServices .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+ }
+ .ourServices .ourFeatServices{
+    flex: 1 1 calc(33% - 120px);
+    margin: 20px 50px;
+    padding: 25px 10px;
+    text-align: center;
+    overflow: hidden;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.5s;
+ }
+ .ourServices .ourFeatServices:nth-child(odd):hover{
+    background-color: #000000;
+    color: #fff;
+    transition: 0.5s;
+ }
+ .ourServices .ourFeatServices:nth-child(even):hover{
+    background-color: #1b8bcb;
+    color: #fff;
+    transition: 0.5s;
+ }
+
+ .ourServices .ourFeatServices .i{
+    color: #1b8bcb;
+    font-size: 7vh;
+    transition: 0.5s;
+ }
+ .ourServices .ourFeatServices:hover .i{
+    color: #fff;
+    transition: 0.5s;
+ }
+ .ourServices .ourFeatServices h2{
+    margin-top: 15px;
+    margin-bottom: 5px;
+    transition: 0.5s;
+ }
+ .ourServices .ourFeatServices:hover h2{
+    color: #fff;
+    transition: 0.5s;
+ }
+ .ourServices .ourFeatServices p{
+    color: gray;
+    width: 60%;
+    transition: 0.5s;
+ }
+ .ourServices .ourFeatServices:hover p{
+    color: #fff;
+    transition: 0.5s;
+ }
+
+ .slider{
+    width: 100%;
+    margin: 20px 0;
+    overflow: hidden;
+    background-image: url(../images/h19.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+ }
+ .slider2{
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+    background-color: #000000d5;
+    color: #fff;
+    position: relative;
+ }
+ .prevArrow, .nextArrow{
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    color: rgba(255, 255, 255, 0.788);
+    font-size: 5vh;
+    cursor: pointer;
+    transition: 0.5s;
+ }
+ .prevArrow{
+    left: 15%;
+ }
+ .nextArrow{
+    right: 15%;
+ }
+ .nextArrow:hover, .prevArrow:hover{
+    color: #1b8bcbc9;
+    transition: 0.5s;
+ }
+
+ .innerSlider{
+    overflow: hidden;
+    width: 100% !important;
+    margin: auto !important;
+    text-align: center !important;
+    box-sizing: border-box;
+    padding: 20px;
+ }
+ .innerSlider img{
+    width: 100px;
+    height: 100px;
+    margin:15px auto;
+    border-radius: 50%;
+ }
+ .innerSlider p{
+    color: #ffffffd2;
+    width: 40%;
+    margin: 10px auto;
+ }
+ .innerSlider h2{
+    width: fit-content;
+    margin: 5px auto;
+    border-bottom: 1px solid #fff;
+    border-image: linear-gradient(to right,transparent, #fff , transparent);
+    border-image-slice: 1;
+    color: #1b8bcb;
+ }
+ .innerSlider h3{
+    width: fit-content;
+    font-weight: 100;
+    color: #ffffffd2;
+    margin: 5px auto;
+ }
+ .gridItems{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 200px 200px;
+    grid-auto-rows: 200px 200px;
+    overflow: hidden;
+    gap: 10px;
+    margin: 20px auto;
+ }
+ .gridItems .imgs{
+    background-color: #1b8bcb;
+    color: #fff;
+    text-align: center;
+    opacity: 0.7;
+    overflow: hidden;
+    transition: 0.5s;
+ }
+ .gridItems .imgs:hover{
+    opacity: 1;
+    transition: 0.5s;
+ }
+ .gridItems .imgs:hover img{
+    transform: scale(1.2);
+    transition: 0.5s;
+ }
+
+ .gridItems .imgs:nth-child(1){
+	grid-column: 1 /  3;
+    grid-row: 1 /  3;
+}
+.gridItems .imgs:nth-child(2){
+	grid-column: 3 /  5;
+}
+.gridItems .imgs:nth-child(3){
+	grid-column: 5 /  7;
+}
+.gridItems .imgs:nth-child(4){
+	grid-column: 3 /  5;
+}
+.gridItems .imgs:nth-child(5){
+	grid-column: 5 /  7;
+    grid-row: 2 /  4;
+}
+.gridItems .imgs:nth-child(6){
+	grid-column: 1 /  5;
+}
+.gridItems .imgs img{
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+}
+
+ @media only screen and (max-width: 768px) {
+    .container{
+        width: 100%;
+    }
+    .innerServicesHeader .servicesToBe{
+        font-size: 5vh;
+        width: 85%;
+        margin: auto;
+    }
+    .ourServices .container{
+        display: block;
+     }
+     .ourServices .ourFeatServices{
+        width: 90%;
+        margin: auto;
+     }
+     .slider2{
+        margin: auto;
+        padding: 0%;
+     }
+     .prevArrow{
+        left: 5%;
+     }
+     .nextArrow{
+        right: 5%;
+     }
+     .innerSlider p{
+        width: 80%;
+     }
+     .gridItems{
+        width: 90%;
+        grid-template-columns: 50px 50px;
+    grid-auto-rows: 50px 50px;
+     }
+ }
+ @media only screen and (max-width: 992px) {
+ }

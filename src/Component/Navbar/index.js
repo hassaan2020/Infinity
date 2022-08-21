@@ -31,7 +31,7 @@ const Navbar = () => {
   return (
     <div className={state} id="navBar">
       <div className='container'>
-      <NavLink to='/' className='span active' >
+      <NavLink to='/' className='span' >
         <span>
           <FontAwesomeIcon className='i' icon={faInfinity}></FontAwesomeIcon>
           Infinity
@@ -45,7 +45,7 @@ const Navbar = () => {
             </div>
           </NavLink>
 
-          <NavLink to='/' className='NavLink' onClick={() => setHeightST(!heightSt)}>
+          <NavLink to='/Services' className='NavLink' onClick={() => setHeightST(!heightSt)}>
             <div className='links'>
                 Services               
             </div>

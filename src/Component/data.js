@@ -8,6 +8,12 @@ import p3 from './images/h4.jpg'
 import p4 from './images/flutter.jpg'
 import p5 from './images/front.png'
 import p6 from './images/data.jpg'
+import g1 from './images/g1.png'
+import g2 from './images/g2.jpg'
+import g3 from './images/g3.jpg'
+import g4 from './images/g4.jpg'
+import g5 from './images/g5.jpg'
+import g6 from './images/g6.jpg'
 
 const data ={
     featDate:
@@ -117,7 +123,83 @@ const data ={
             oldPrice:"65$"
         },
         
-        
     ],
+    ourServicesFeat:
+    [
+        {
+            icn: faCode,
+            title: "Services Name",
+            disc: "Lorem Ipsum is simply dummy text of the printing ",
+        },
+        {
+            icn: faCode,
+            title: "Services Name",
+            disc: "Lorem Ipsum is simply dummy text of the printing ",
+        },
+        {
+            icn: faCode,
+            title: "Services Name",
+            disc: "Lorem Ipsum is simply dummy text of the printing ",
+        },
+        {
+            icn: faCode,
+            title: "Services Name",
+            disc: "Lorem Ipsum is simply dummy text of the printing ",
+        },
+        {
+            icn: faCode,
+            title: "Services Name",
+            disc: "Lorem Ipsum is simply dummy text of the printing ",
+        },
+        {
+            icn: faCode,
+            title: "Services Name",
+            disc: "Lorem Ipsum is simply dummy text of the printing ",
+        }, 
+    ],
+
+    featCustomerSlider:
+    [
+        {
+            img: p1,
+            name: "Aleksandr Davydov",
+            comment: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+            job: "front-end developer",
+        },
+        {
+            img: p2,
+            comment: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+            name: "Aleksandr Davydov",
+            job: "UX/UI designer",
+        },
+        {
+            img: p3,
+            comment: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+            name: "Aleksandr Davydov",
+            job: "Android developer",
+        },
+    ],
+    gridImg:
+    [
+        {
+            img:g1,
+        },
+        {
+            img:g2,
+        },
+        {
+            img:g4,
+        },
+        {
+            img:g5,
+        },
+        {
+            img:g6,
+        },
+        {
+            img:g3,
+        },
+    ],
+    
 }
 export default data

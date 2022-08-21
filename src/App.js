@@ -4,6 +4,7 @@ import { Route,Routes } from 'react-router-dom';
 import Navbar from './Component/Navbar'
 import Home from './Component/Home';
 import About from './Component/About';
+import Services from './Component/Services';
 import Footer from './Component/Footer';
 import './App.css';
 
@@ -15,8 +16,9 @@ class App extends Component {
         
         <Navbar/>
         <Routes>
-          <Route path='/safetyapp' element = {<Home/>}/>
+          <Route path='/' element = {<Home/>}/>
           <Route path='/About' element = {<About/>} />
+          <Route path='/Services' element = {<Services/>} />
         </Routes>
         <Footer/>
         

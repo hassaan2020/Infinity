@@ -25,7 +25,7 @@ button , input{
      width: 100%;
      height: 100vh;
      /* 18191a */
-     background-image: linear-gradient(60deg ,#18191af5 , #1b8bcbf5 );
+     background-image: linear-gradient(120deg ,#18191ae7 , #1b8bcbe7);
      overflow: hidden;
      display: flex;
      flex-direction: column;
@@ -96,14 +96,24 @@ button , input{
  }
  .aboutServices{
    width: 100%;
-   padding: 20px 0;
+   padding: 0;
    margin: 50px 0;
    margin-bottom: 20px;
    box-sizing: border-box;
    overflow: hidden;
-   background-image:linear-gradient(60deg,#18191af5 0% 10%,#1b8bcb 10% 90%,#18191af5 90% 100%) ;
-   transition: 0.5s ;
+   background-image:url('../images/h19.jpg') ;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+
  }
+ .aboutServices2{
+  width: 100%;
+  padding: 20px 0;
+  box-sizing: border-box;
+  overflow: hidden;
+  background-image:linear-gradient(60deg,#18191ad0 0% 30%,#1b8acbea 30% 90%,#18191ad0 90% 100%) ;
+}
  
  .aboutServices .container{
    display: flex;

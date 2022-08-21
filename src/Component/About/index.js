@@ -53,6 +53,7 @@ function About() {
       </div>
 
       <div className={styles.aboutServices}>
+        <div className={styles.aboutServices2}>
         <div className={styles.container}>
         <div className={styles.innerAboutServices}>
             <h1>From education to talent</h1>
@@ -74,6 +75,7 @@ function About() {
             <img src={p2}/>
           </div>
 
+        </div>
         </div>
       </div>
 

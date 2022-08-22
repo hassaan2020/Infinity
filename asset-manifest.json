@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Infinity-website/static/css/main.6adb4d00.css",
-    "main.js": "/Infinity-website/static/js/main.c63617e4.js",
+    "main.css": "/Infinity-website/static/css/main.0970c5be.css",
+    "main.js": "/Infinity-website/static/js/main.c3b94f1d.js",
     "static/js/787.53b9161e.chunk.js": "/Infinity-website/static/js/787.53b9161e.chunk.js",
     "static/media/g1.png": "/Infinity-website/static/media/g1.f4cc01d86ff9f1691df4.png",
     "static/media/h19.jpg": "/Infinity-website/static/media/h19.0d05ffe6e11476067050.jpg",
@@ -11,6 +11,7 @@
     "static/media/data.jpg": "/Infinity-website/static/media/data.420d53a81cf35b0f238b.jpg",
     "static/media/h7.png": "/Infinity-website/static/media/h7.a2be5a40b543f49847f2.png",
     "static/media/g4.jpg": "/Infinity-website/static/media/g4.511578494f5f318b297d.jpg",
+    "static/media/h3.jpg": "/Infinity-website/static/media/h3.d5a37e25518bd8a50a5e.jpg",
     "static/media/h4.jpg": "/Infinity-website/static/media/h4.39f2baa3cac8a0bad75f.jpg",
     "static/media/h8.jpg": "/Infinity-website/static/media/h8.4f5926b83f365293fc81.jpg",
     "static/media/h6.png": "/Infinity-website/static/media/h6.d549e54a033db911133e.png",
@@ -26,12 +27,12 @@
     "static/media/slick.ttf": "/Infinity-website/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/Infinity-website/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/Infinity-website/index.html",
-    "main.6adb4d00.css.map": "/Infinity-website/static/css/main.6adb4d00.css.map",
-    "main.c63617e4.js.map": "/Infinity-website/static/js/main.c63617e4.js.map",
+    "main.0970c5be.css.map": "/Infinity-website/static/css/main.0970c5be.css.map",
+    "main.c3b94f1d.js.map": "/Infinity-website/static/js/main.c3b94f1d.js.map",
     "787.53b9161e.chunk.js.map": "/Infinity-website/static/js/787.53b9161e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6adb4d00.css",
-    "static/js/main.c63617e4.js"
+    "static/css/main.0970c5be.css",
+    "static/js/main.c3b94f1d.js"
   ]
 }

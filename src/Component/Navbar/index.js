@@ -51,14 +51,9 @@ const Navbar = () => {
             </div>
           </NavLink>
 
-          <NavLink to='/' className='NavLink' onClick={() => setHeightST(!heightSt)}>
+          <NavLink to='/Courses' className='NavLink' onClick={() => setHeightST(!heightSt)}>
             <div className='links'>
                 Courses
-            </div>
-          </NavLink>
-          <NavLink to='/' className='NavLink' onClick={() => setHeightST(!heightSt)}>
-            <div className='links'>
-                Contact Us
             </div>
           </NavLink>
         </div>

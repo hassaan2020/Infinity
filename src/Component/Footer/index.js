@@ -16,28 +16,24 @@ function footer() {
             <div className={styles.featFooter}>
                 <h3>Our website</h3>
                 <div className={styles.nLnks}>
-                    <NavLink to='/' className={styles.NavLink}>
+                    <NavLink to='/About' className={styles.NavLink}>
                         <div className={styles.links}>
                             About
                         </div>
                     </NavLink>
 
-                    <NavLink to='/' className={styles.NavLink}>
+                    <NavLink to='/Services' className={styles.NavLink}>
                         <div className={styles.links}>
                             Services               
                         </div>
                     </NavLink>
 
-                    <NavLink to='/' className={styles.NavLink}>
+                    <NavLink to='/Courses' className={styles.NavLink}>
                         <div className={styles.links}>
                             Courses
                         </div>
                     </NavLink>
-                    <NavLink to='/' className={styles.NavLink}>
-                        <div className={styles.links}>
-                            Contact Us
-                        </div>
-                    </NavLink>
+                    
                 </div>
             </div>
             <div className={styles.featFooter}>

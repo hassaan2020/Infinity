@@ -285,4 +285,37 @@
      }
  }
  @media only screen and (max-width: 992px) {
+   .container{
+      width: 100%;
+  }
+  .innerServicesHeader .servicesToBe{
+      font-size: 5vh;
+      width: 85%;
+      margin: auto;
+  }
+  .ourServices .container{
+      display: block;
+   }
+   .ourServices .ourFeatServices{
+      width: 90%;
+      margin: auto;
+   }
+   .slider2{
+      margin: auto;
+      padding: 0%;
+   }
+   .prevArrow{
+      left: 5%;
+   }
+   .nextArrow{
+      right: 5%;
+   }
+   .innerSlider p{
+      width: 80%;
+   }
+   .gridItems{
+      width: 90%;
+      grid-template-columns: 50px 50px;
+      grid-auto-rows: 50px 50px;
+   }
  }

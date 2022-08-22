@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap');
+
+.container{
+    width: 1170px ; 
+    margin: auto;
+ }
+ .fragment{
+     font-family: 'Kalam', cursive;
+ }
+ .coursesHeader{
+     width: 100%;
+     height: 100vh;
+     background-image: url(../images/h19.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     overflow: hidden;
+ }
+ .coursesHeader .innerCoursesHeader{
+     width: 100%;
+     height: 100vh;
+     background-image:linear-gradient(120deg,#1b8bcbe7 0 15% ,#06283Dee 15% 20%,#1b8bcbe7 20% 22% ,#06283Dee 22% 100% );
+     overflow: hidden;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     font-size: 4vh;
+     text-align: center;
+ }
+ .coursesHeader .innerCoursesHeader h1{
+    color: #cdeefc;
+    text-align: left;
+    text-transform: uppercase;
+    margin: 20px;
+    font-family: 'Montserrat', sans-serif !important;
+    margin-top: 0;
+ }
+ .coursesHeader .innerCoursesHeader p{
+    color: #ffffff9f;
+    font-size: medium;
+    margin-bottom: 30px;
+ }
+ .coursesHeader .innerCoursesHeader form{
+    width: 35%;
+    padding: 0;
+    border: 1px solid #1b8bcbd2;
+    position: relative;
+    font-size: medium;
+    border-radius: 50px;
+ }
+ .coursesHeader .innerCoursesHeader form input{
+    width: 100%;
+    padding: 10px 15px;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+    background-color: transparent;
+    color: #fff;
+    font-weight: 100;
+ }
+ .coursesHeader .innerCoursesHeader form .i{
+    padding: 10px 25px;
+    color: #1b8acbd3;
+    border: none;
+    outline: none;
+    position: absolute;
+    margin: 0;
+    top: 0;
+    right: 0;
+ }
+ .playlists{
+    width: 100%;
+    padding: 30px 0;
+    box-sizing: border-box;
+    overflow: hidden;
+ }
+ .playlists .container{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    gap: 15px;
+ }
+ .playlists .featPlaylist{
+    box-sizing: border-box;
+    background-color: #efefef;
+    padding-bottom: 15px;
+    position: relative;
+    overflow: hidden;
+ }
+ .featPlaylist .innerFeatPlaylist{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: -100%;
+    z-index: 99;
+    background-color: #06283ded;
+    color: #cdeefc;
+    font-family: 'Montserrat', sans-serif !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.5s;
+ }
+ .featPlaylist:hover .innerFeatPlaylist{
+    left: 0;
+    transition: 0.5s;
+ }
+ .featPlaylist .listVideo{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 150px;
+    background-color: #06283de0;
+    color: #cdeefc;
+    font-family: 'Montserrat', sans-serif !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+ .featPlaylist .listVideo span, .i{
+    font-size: 3vh;
+    margin: 5px;
+ }
+ .playlists .featPlaylist img{
+    width: 100%;
+    height: 150px;
+ }
+ .playlists .featPlaylist h2{
+    color: #1b8bcb;
+    margin: 2px 0;
+    padding: 5px 10px;
+    font-family: 'Montserrat', sans-serif !important;
+ }
+ .playlists .featPlaylist h4, h5{
+    margin:  0;
+    padding: 5px 10px;
+    font-weight: 100;
+    font-family: 'Montserrat', sans-serif !important;
+    color: gray;
+ }
+
+ @media only screen and (max-width: 768px) {
+    .container{
+        width: 100%;
+    }
+    .coursesHeader .innerCoursesHeader form{
+        width: 90%;
+     }
+     .coursesHeader .innerCoursesHeader form button{
+        padding: 10px 25px;
+     }
+     .playlists .container{
+        display: grid;
+        grid-template-columns: 100%;
+        gap: 25px;
+        padding: 35px;
+        box-sizing: border-box;
+     }
+ }
+ @media only screen and (max-width: 992px) {
+ }
